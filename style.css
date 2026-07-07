@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+     font-family: "Open Sans", sans-serif;
+}
+
+img{
+    max-width:100%;
+}
+
+
+/*common button*/
+.common-btn{
+    background-color:#FD6E0A;
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    border:none;
+
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+
+header{
+ background-color:#FFF8F3
+}
+
+nav{
+   
+    display:flex;
+    justify-content:space-between;
+    padding:8px 0;
+   
+}
+
+.logo{
+    font-weight:bold;
+    font-size:45px;
+}
+.logo-r{
+    color:#FD6E0A
+}
+ul {
+    display:flex;
+    justify-content:space-between;
+    list-style:none;
+    gap:20px;
+     align-items:center;
+      
+}
+ul li a{
+  text-decoration:none;
+}
+
+/*hero section style*/
+
+.hero-parent-root{
+    background-color: #f5ede8;
+}
+.hero-parent{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+.hero-left-p-1{
+    font-size:45px;
+    font-weight:semibold;
+    color:#474747
+}
+
+.hero-left h2{
+    font-weight:bold;
+    font-size:70px;
+    color:#181818;
+    margin-Bottom:10px;
+}
+
+.outline-btn{
+     background-color:white;
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:bold;
+    color:#FD6E0A;
+    border:1px solid #FD6E0A;
+}
+
+.hero-left-btn-parent{
+    margin-top:10px;
+    
+}
+
+/*css for about section*/
+.about-parent{
+    background-color:#FFF8F3;
+     max-width:800px;
+    margin:auto;
+    text-align:center;
+    margin:80px auto;
+    padding:130px;
+    border-radius:10px;
+   
+}
+.about-parent p{
+    margin:10px 0;
+}
+
+.about-parent-card{
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+    
+}
+
+
+ .card{
+    background-color:#f5d9c5;
+    padding:10px;
+    border-radius:5px;
+
+}
