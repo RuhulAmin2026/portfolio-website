@@ -127,3 +127,45 @@ ul li a{
     border-radius:5px;
 
 }
+
+/* css for what i do section */
+.what-i-do-parent{
+    max-width:1000px;
+    margin:60px auto;
+    text-align:center;
+}
+
+..what-i-do-parent p{
+    /* margin-top:30px; */
+}
+
+.what-i-do-card-container{
+    margin-top:50px;
+    /* display:grid;
+    grid-template-columns: repeat(4, 1fr); */
+
+    display:flex;
+    justify-content:space-between;
+   
+}
+
+.what-i-do-card{
+    width:150px;
+    height:250px;
+    /* border:1px solid blue; */
+    background-color:rgb(245, 240, 240);
+    padding:20px;
+    margin-right:40px;
+    border-radius:10px;
+    text-align:left;
+    
+}
+
+.what-i-do-card h3{
+    margin-top:10px;
+}
+
+.what-i-do-card p{
+    margin-top:10px;
+    font-size:12px;
+}
